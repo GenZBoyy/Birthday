@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.countdown-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.countdown-timer span {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+#days {
+    color: #ff69b4;
+}
+
+#hours {
+    color: #33cc33;
+}
+
+#minutes {
+    color: #6666ff;
+}
+
+#seconds {
+    color: #ff9900;
+}
