@@ -1,6 +1,6 @@
 // script.js
 const countdownTimer = document.querySelector('.countdown-timer');
-const birthdayDate = new Date('2024-07-15T00:00:00.000Z'); // Replace with the birthday date
+const birthdayDate = new Date('2024-07-15T18:30:00.000Z'); // Replace with the birthday date
 
 function countdown() {
     const now = new Date();
